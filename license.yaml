@@ -1,0 +1,75 @@
+# This file defines the licenses provided for a particular
+# IMPACT deployment. This file is managed by Modelon's AE team.
+
+# License ID
+License ID: c73c5d90-d1f6-496f-917e-679e8c562903
+
+# issue date
+Issued: '2024-03-27'
+
+# Readable name of the organization (ASCII only)
+# License file will be placed in a directory with this name
+Customer: Modelon Indian
+
+# Readable name of the deployment, e.g., department (ASCII only)
+# License file will have this name when signed
+Deployment: Modelon_Trichy
+
+# expiration date must be in YYYY-MM-DD format
+Expires: '2024-10-31'
+
+# Optional global extra features
+# i.ex ["EXAMPLE_FEATURE_1", "EXAMPLE_FEATURE_2"]
+Global features: [OPTIMICA_HSL]
+
+# Unlimited implies infinite number of Pro/Base licenses
+# If it is not True, remove 'Unlimited' or set the value to False
+#Unlimited: 
+#  True
+
+# licenses included
+# currently must be either Pro or Base; not both
+Licenses:
+- type: Pro
+  number: 5
+
+- type: Deploy Add-on
+  number: 5
+
+- type: Productivity Add-on
+  number: 4
+
+
+Signature:
+  scope: [License ID, Issued, Customer, Deployment, Expires, Licenses, Global features]
+  check:
+
+  - eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ
+  - MaWNlbnNlIElEIjoiYzczYzVkOTAtZDFmNi00OTZ
+  - mLTkxN2UtNjc5ZThjNTYyOTAzIiwiSXNzdWVkIjo
+  - iMjAyNC0wMy0yNyIsIkN1c3RvbWVyIjoiTW9kZWx
+  - vbiBJbmRpYW4iLCJEZXBsb3ltZW50IjoiTW9kZWx
+  - vbl9UcmljaHkiLCJFeHBpcmVzIjoiMjAyNC0xMC0
+  - zMSIsIkxpY2Vuc2VzIjpbeyJ0eXBlIjoiUHJvIiw
+  - ibnVtYmVyIjo1fSx7InR5cGUiOiJEZXBsb3kgQWR
+  - kLW9uIiwibnVtYmVyIjo1fSx7InR5cGUiOiJQcm9
+  - kdWN0aXZpdHkgQWRkLW9uIiwibnVtYmVyIjo0fV0
+  - sIkdsb2JhbCBmZWF0dXJlcyI6WyJPUFRJTUlDQV9
+  - IU0wiXX0.rYXn-f6uHEyZ8qgx-BQO9wYys1JgSKq
+  - kIKZKQUwT9mdnFNCpUFffAuCGV2SaNN3M3eUNmF1
+  - DF_3_nj8mddkcchRybHrx1IVIxYwC3vujEwLgFyy
+  - 0tWD_fwgd19ztgfQaauacwwDLANMwbBHwKKL3qxz
+  - AhkD0jHsmuQo_3qPs18yokCsiLgIlYnLqyeVyClL
+  - s8hDgDiVIHQvGZJNi_ltc4wv-6q45LumKaVBxtxY
+  - MZkE7KJNsu78D6BtbtdWm6Vkz4uPr8rGl8kiVDFw
+  - j5wGi9nQiDntnAbupj4JjkH7niyyTQgPYhlMs_es
+  - i7tgUnvhxG92L2sRkvNPRiwoJyQnwwHH2XHe7td0
+  - 8ojmTBEZlERGiymyiHFSWaEfBizQbI-MWdfL_aWF
+  - VDm49lFqw6NU8l8OVrQp4balQRsmhfqyPVde6Srl
+  - MnxO7FChVu7cAaQtT01ES4IGTwkC7OuJHTIv3Wuk
+  - CZb05w_Tylkq3Q2nTqxCwQS65Ktv_Lg20Uzrevht
+  - P7y7bYF8VSAz1WKTeBDrzbnzCDsd6cQw6Nw5MVQh
+  - Z5nVnVhOAZs25hByxeyXmQkuCArWL_zExFVbdGxW
+  - isoFJ4iRQsQkducOoTNApbQyfkqA_YcXUTnZ45Rt
+  - T675_0mcafNjEvp7t5QBG45e2ANtzTYuoj_tNk2m
+  - I_WUYOtRvT6A
